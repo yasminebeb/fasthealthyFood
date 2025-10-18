@@ -1,0 +1,12 @@
+    @keyframes pan {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -4000px 0; /* or -100% if using relative units */
+  }
+}
+
+.animate-pan {
+  animation: pan 30s linear infinite;
+}

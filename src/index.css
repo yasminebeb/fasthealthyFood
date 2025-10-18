@@ -1,0 +1,7 @@
+@import "tailwindcss";
+   .blurred-overlay {
+    
+      backdrop-filter: blur(10px); /* Apply blur to the background behind this element */
+      -webkit-backdrop-filter: blur(10px); /* For Webkit browsers */
+   
+    }
