@@ -26,7 +26,7 @@ return (
 
        <div   className="font-bold text-[#ffffff]" style={ {fontSize: '60px'} }  > {recipe.name} </div>
     
-          <div  className="text-[#ccf2df] text-xl"> 
+          <div  className="text-[rgb(204,242,223)] text-xl"> 
             <p>cusin: {recipe.cuisine}</p>
         <p> difficulty: {recipe.difficulty}</p>
       
@@ -54,6 +54,7 @@ return (
       alt={recipe.name}
       style={{ borderRadius: "8px", marginTop: "5px" }}
     />
+    <div> <button className="bg-[#86ff58] font-bold py-2  mt-2 px-3  m-l-4 rounded">  add to favorite</button></div>
   </div></div>
 </section>
 
@@ -107,7 +108,3 @@ export default PageRecipe;
     <p>{data[4].instructions.join(", ")}</p>
   </>
 )} */}
-
-
-
-

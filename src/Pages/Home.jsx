@@ -120,7 +120,7 @@ Ditch the sugar and dive into deliciousness with our Cream Caramel made with dat
 -Simple and wholesome ingredients
 -Bursting with flavor and nutrients
 Transform your dessert game with this easy-to-make, healthier alternative. Perfect for any occasion or just a treat-yourself moment!
-👇 Get the Recipe on momento360</p><Link to={`https://rb.gy/rc07it`}>
+👇 Get the Recipe on momento360</p><Link  target="_blank" to={`https://rb.gy/rc07it`}>
      
     <button className="bg-[#86ff58] font-bold py-2  mt-2 px-3  m-l-4 rounded">  Full Recipe</button>
     </Link>

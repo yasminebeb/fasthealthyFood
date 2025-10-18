@@ -19,7 +19,27 @@ const Footer = () => {
 
      
 </div>
- <div className=' text-[#5da290] max-w-[1200px] mx-auto  content-center justify-center pb-6 pt-3' >all copy right reseved to yasmine Bebars  behance.net/yasminebebars</div>
+<div className="text-[#5da290] max-w-[1200px] mx-auto flex items-center justify-center gap-2 pb-6 pt-3">
+  <span>
+    All copyright reserved to{" "}
+    <a
+      href="https://www.behance.net/yasminebebars"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="underline hover:text-[#4c8c7b]"
+    >
+      Yasmine Bebars
+    </a>
+  </span>
+  <a
+    href="https://web.facebook.com/profile.php?id=61556149274910&locale=ar_AR"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img className="w-[30px]" src="/face.png" alt="Facebook" />
+  </a>
+</div>
+
   </div>
     </>
   )

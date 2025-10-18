@@ -5,3 +5,7 @@
       -webkit-backdrop-filter: blur(10px); /* For Webkit browsers */
    
     }
+    html{
+
+      background-color: #10413a;
+    }

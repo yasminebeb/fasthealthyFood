@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 import Home from './Pages/Home'
 import RecipesSearch from './Pages/RecipesSearch'
 import InFridge from './Pages/InFridge'
-
+// import { FavoritesProvider } from "./Pages/FavoritesContext";
 
 import Special from './Pages/Special'
 import PageRecipe from './Pages/PageRecipe'
@@ -33,15 +33,17 @@ const App = () => {
 
 
   return (
-    <div  className="bg-[url(assets/pix/bg-web.png)]" >
+    <div  className=" bg-[#10413a] bg-[url(assets/pix/bg-web.png)] " >
            <NavBar />
+             {/* <FavoritesProvider /> */}
 
                   <Routes>
                     <Route path="/" element={<Home data={data} />} />
                     <Route path="/Special" element={<Special />} />
                     <Route path="/InFridge" element={<InFridge />} />
                     <Route path="/RecipesSearch" element={<RecipesSearch data={data} />} />
-                    <Route path="/PageRecipe/:id" element={<PageRecipe data={data} />} />
+                      <Route path="/RecipesSearch" element={<RecipesSearch data={data} />} />
+                    {/* <Route path="/FavoritesProvider" element={<FavoritesProvider  />} /> */}
                     <Route path="/Contact" element={<Contact />} />
                   </Routes>
 
