@@ -55,7 +55,7 @@ function InFridge() {
 
   <div className="flex items-center gap-2">
     <input type="checkbox" onChange={() => handleCheck("egg")} />
-    <label>Tomato</label>
+    <label>egg</label>
   </div>
 </div>
 
@@ -109,7 +109,7 @@ function InFridge() {
 
   <div className="flex items-center gap-2">
     <input type="checkbox" onChange={() => handleCheck("onion")} />
-    <label>Tomato</label>
+    <label>onion</label>
   </div>
 </div>
 
@@ -128,7 +128,7 @@ function InFridge() {
 
   <div className="flex items-center gap-2">
     <input type="checkbox" onChange={() => handleCheck("carrot")} />
-    <label>Tomato</label>
+    <label>Carrot</label>
   </div>
 </div>
 

@@ -54,7 +54,7 @@ return (
       alt={recipe.name}
       style={{ borderRadius: "8px", marginTop: "5px" }}
     />
-    <div> <button className="bg-[#86ff58] font-bold py-2  mt-2 px-3  m-l-4 rounded">  add to favorite</button></div>
+    {/* <div> <button className="bg-[#86ff58] font-bold py-2  mt-2 px-3  m-l-4 rounded">  add to favorite</button></div> */}
   </div></div>
 </section>
 
